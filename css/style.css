@@ -1,0 +1,107 @@
+ .body-theme-0 {
+     font-family: 'Montserrat', sans-serif;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+     box-sizing: border-box;
+ }
+
+ .login-container {
+     background: white;
+     padding: 2rem;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     max-width: 400px;
+     width: 100%;
+ }
+
+ .login-container h2 {
+     font-size: 2rem;
+     font-weight: 700;
+     margin-bottom: 1.5rem;
+     text-align: center;
+     color: #333;
+ }
+
+ .login-container input {
+     width: 100%;
+     padding: 0.75rem;
+     margin-bottom: 1rem;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     font-size: 1rem;
+     transition: border-color 0.3s ease;
+ }
+
+ .login-container input:hover {
+     border-color: #ff6f61;
+ }
+
+ .login-container button {
+     width: 100%;
+     padding: 0.75rem;
+     border: none;
+     border-radius: 5px;
+     background-color: #ff6f61;
+     color: white;
+     font-size: 1rem;
+     font-weight: 700;
+     cursor: pointer;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .login-container button:hover {
+     background-color: #ff3b2f;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ }
+
+ /* first page */
+ .sign-container {
+     background: white;
+     padding: 2rem;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     max-width: 400px;
+     width: 100%;
+ }
+
+ .sign-container h2 {
+     font-size: 2rem;
+     font-weight: 700;
+     margin-bottom: 1.5rem;
+     text-align: center;
+     color: #333;
+ }
+
+ .sign-container input {
+     width: 100%;
+     padding: 0.75rem;
+     margin-bottom: 1rem;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     font-size: 1rem;
+ }
+
+ .sign-container button {
+     width: 100%;
+     padding: 0.75rem;
+     border: none;
+     border-radius: 5px;
+     background-color: #ff6f61;
+     color: white;
+     font-size: 1rem;
+     font-weight: 700;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .sign-container button:hover {
+     background-color: #ff3b2f;
+ }
